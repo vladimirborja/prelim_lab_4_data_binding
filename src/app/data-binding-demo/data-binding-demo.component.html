@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+<h2>{{message}}</h2>
+<p [style.color]="textColor">this text is blue!</p>
+<p [class.highlighted] = "isHighlighted"> This text is highlighted</p>
+<img [src]="imageUrl" [width]="w" [height]="h" [alt]="altText">
+<input [(ngModel)]="yourName" placeholder="Enter your name">
+<p>Hello, {{yourName}}!</p>

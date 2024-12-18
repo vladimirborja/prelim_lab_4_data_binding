@@ -1,0 +1,13 @@
+<p>This is a Directive Demo.</p>
+
+<div  *ngIf= "isLoggedIn">
+    <h1>Welcome to WD-302!</h1>
+</div>
+
+<div  *ngIf= "isLoggedIn">
+    <h2>Please log in</h2>
+</div>
+
+<ng-template [ngIf]="condition">
+    <div>Content to render when condition is true.</div>
+</ng-template>
